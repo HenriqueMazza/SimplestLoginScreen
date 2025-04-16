@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <img src="Imagens/gato.png" alt="Gato">
+        <div class="login">
+            <h2>Login</h2><br><br>
+            <form id="Form">
+                <input type="text" id="usuario" name="usuario" placeholder="Usuário">
+                <input type="password" id="senha" name="senha" placeholder="Senha">
+                <button type="button" onclick="fazerLogin()">ENTRAR</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function fazerLogin() {
+            const usuarioCorreto = 'admin';
+            const senhaCorreta = '123123';
+
+            const usuario = document.getElementById('usuario').value;
+            const senha = document.getElementById('senha').value;
+
+            if (usuario === usuarioCorreto && senha === senhaCorreta) {
+                alert('Login feito com sucesso');
+            } else {
+                alert('Usuario ou senha incorretos')
+            }
+        }
+    </script>
+</body>
+</html>
