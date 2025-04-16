@@ -57,7 +57,7 @@ img {
 .login input {
     height: 3.5vh;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 100%;
     text-align: center;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 40px;
