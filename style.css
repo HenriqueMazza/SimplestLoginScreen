@@ -38,13 +38,12 @@ img {
 
 }
 
-
 .login button {
     background-color: rgb(12, 111, 153);
     color: white;
     padding: 15px;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -55,12 +54,16 @@ img {
 }
 
 .login input {
-    height: 3.5vh;
+
     border-radius: 20px;
-    font-size: 100%;
     text-align: center;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 40px;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .login input:hover {
